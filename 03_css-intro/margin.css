@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*.body {
+  background-color: burlywood;
+}*/
+
+.container {
+  background-color: bisque;
+  margin: 50px; /* Adds a 50px margin on all sides */
+  margin: 10px 30px; /* Adds a 10px top and bottom margin, and a 30px left and right margin */
+  margin: 10px 20px 30px 40px; /* Adds a 10px top margin, 20px right margin, 30px bottom margin, and 40px left margin */
+
+  /*! If there are inline elements within a block element, they can be aligned using text-align. Block elements within a block element cannot be aligned using text-align. */
+
+  text-align: center;
+
+  /* Adds a 10px inner padding to the container div in all directions */
+  /* padding: 10px; */
+  padding: 20px 10px; /* Adds a 20px top and bottom padding, and a 10px left and right padding */
+}
+
+.div {
+  background-color: blueviolet;
+
+  width: 100px;
+  /* height: 30px; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+  /* A block element inside another block element can be centered using margin: auto; */
+  /* margin: auto; */
+  margin: 20px auto; /* Centers the div horizontally and adds a 20px top and bottom margin */
+}
